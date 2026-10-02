@@ -1,0 +1,63 @@
+body {
+
+    margin-top: 4rem;
+    background-color: rgb(255, 243, 228);
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 0;
+}
+
+.guide {
+    border-radius: 1.5rem;
+    margin-top: 1.3rem;
+    width: 45rem;
+}
+
+section {
+    border-top: 3px solid black;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+
+p {
+    font-size: 1.3rem;
+
+}
+
+.button {
+    font-size: 1.3rem;
+    border: 0.1rem solid black;
+    padding: 0.7rem;
+    border-radius: 1.5rem;
+    background-color: orange ;
+    text-decoration: none;
+    color: black;
+    margin-top: 2rem;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: scale(0.9);
+}
+
+
+nav {
+    border-bottom: 0.2rem solid black;
+}
+
+nav {
+    height: 3rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: end;
+    padding-right: 1rem ;
+}
+ a {
+    text-decoration: none;
+ }
+
+ a:active {
+    text-decoration: none;
+ }
