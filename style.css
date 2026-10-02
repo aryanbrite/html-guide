@@ -11,11 +11,14 @@ body {
     border-radius: 1.5rem;
     margin-top: 1.3rem;
     width: 45rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 section {
     border-top: 3px solid black;
-    margin-top: 3rem;
+    margin-top: 31rem;
     padding: 2rem;
 }
 
@@ -32,9 +35,10 @@ p {
     background-color: orange ;
     text-decoration: none;
     color: black;
-    margin-top: 2rem;
+
     display: inline-block;
     transition: 0.3s;
+    margin-left: 1.7rem;
 }
 
 .button:hover {
